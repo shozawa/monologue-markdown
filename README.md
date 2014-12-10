@@ -12,7 +12,7 @@ IMPORTANT: this README is for Monologue 0.3.X.
 
 This is simple, you just have to add this file to your `Gemfile` after Monologue:
 
-    gem "monologue-markdown", :git => "git@github.com:jipiboily/monologue-markdown.git"
+    gem "monologue-markdown", github: "tetuyoko/monologue-markdown"
 
 Then run this:
 
