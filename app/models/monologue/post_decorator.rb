@@ -1,3 +1,8 @@
+# HACK: https://github.com/shanemcd/monologue-markdown/commit/aedc7f7334c3e8d06e12ba70456feb6ab08c7c10
+# Rails4にアップデートするためのハック
+module Monologue::PostDecorator
+end
+
 Monologue::Post.class_eval do
   before_validation do
     if self.new_record?
